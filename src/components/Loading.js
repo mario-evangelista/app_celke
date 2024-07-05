@@ -5,13 +5,10 @@ import { ActivityIndicator } from "react-native";
 import { LoadingArea } from "../styles/custom";
 
 // Componente de Loading
-const Loading = ({ size = 'large', color = '#f5f5f5'}) => (
-    <LoadingArea>
-        <ActivityIndicator 
-            size={size}
-            color={color}
-        />
-    </LoadingArea>
+const Loading = ({ size = "large", color = "#f5f5f5" }) => (
+  <LoadingArea>
+    <ActivityIndicator size={size} color={color} />
+  </LoadingArea>
 );
 
 // Exportar a função
